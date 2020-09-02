@@ -28,8 +28,8 @@ class String
 
   def count_sentences
     # binding.pry
-    self.reject { |c| c.empty? }
-    
+    self.split.reject { |c| c.empty? }
+    self.count
   end
   
 end
