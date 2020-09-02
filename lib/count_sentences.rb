@@ -28,11 +28,8 @@ class String
 
   def count_sentences
     # binding.pry
-    if exclamation? ||
-      question? ||
-      sentence?
-    return self.split.count
-    end 
+    self.split.count
+    
   end
   
 end
