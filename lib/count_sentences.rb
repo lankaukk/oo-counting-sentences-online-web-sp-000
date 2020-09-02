@@ -28,8 +28,7 @@ class String
 
   def count_sentences
     binding.pry
-    self.split(/\.|\?|\!/).reject { |s| s.empty? }
-    self.count
+    self.split(/\.|\?|\!/).reject { |s| s.empty? }.count
   end
   
 end
