@@ -30,7 +30,7 @@ class String
     # binding.pry
     if 
       self.split.include?(" ")
-      
+      self.reject(&:empty?)
     
     
   end
