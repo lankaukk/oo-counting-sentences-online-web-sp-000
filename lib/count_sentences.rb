@@ -28,10 +28,11 @@ class String
 
   def count_sentences
     # binding.pry
-    
+    if 
       self.split.include?(" ")
+    then 
       self.split.reject(&:empty?)
-      self.count
+      return self.count
     
     
   end
