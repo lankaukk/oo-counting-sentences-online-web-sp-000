@@ -31,7 +31,7 @@ class String
     if 
       self.split.include?(" ")
       self.split.reject(&:empty?)
-      slef.count
+      self.count
     
     
   end
