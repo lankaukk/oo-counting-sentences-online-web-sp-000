@@ -29,7 +29,7 @@ class String
   def count_sentences
     # binding.pry
     
-      self.split.reject(&:empty?)
+      self.split.reject(&:empty?).count
     
     
   end
