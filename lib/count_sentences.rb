@@ -32,5 +32,7 @@ class String
       question? ||
       sentence?
     return self.split.count
-  end
+  end 
+end
+  
 end
