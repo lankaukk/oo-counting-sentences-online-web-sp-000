@@ -33,7 +33,7 @@ class String
     then 
       self.split.reject(&:empty?)
       return self.count
-    
+    end
     
   end
   
